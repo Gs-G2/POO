@@ -11,7 +11,7 @@ import javax.swing.JOptionPane;
  *
  * @author guilhermesouza.gomes
  */
-public class Exercicio {
+public class Filial {
     public static void main(String[] args) {
         Compra c = new Compra();
         
@@ -20,5 +20,6 @@ public class Exercicio {
         }
         JOptionPane.showMessageDialog(null, "Valor das compras "+c.getSoma());
         JOptionPane.showMessageDialog(null, "Valor da maior compra "+c.getMaior());
+    
     }
 }
